@@ -1,0 +1,24 @@
+
+#微信支付
+wx-pay:
+  appId: appid
+  mchId: mchId
+  keyPath: keyPath
+  certPath: certPath
+  platformCertPath: platformCertPath
+  apiKey3: apiKey3
+  serialNo: serialNo
+  domain: domain
+
+# 支付宝支付
+ali-pay:
+  appId: appId
+  privateKey: privateKey
+  publicKey: publicKey
+  appCertPath: appCertPath
+  aliPayCertPath: aliPayCertPath
+  aliPayRootCertPath: aliPayRootCertPath
+  serverUrl: https://openapi.alipay.com/gateway.do
+  domain: domain
+  returnUrl: returnUrl
+  notifyUrl: notifyUrl
